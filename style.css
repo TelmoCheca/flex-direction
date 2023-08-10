@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(242, 180, 180);
+}
+/* style comuni */
+.container{
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.text, div{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.number{
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, rgb(44, 42, 165), #5ee217, hwb(19 71% 0%));
+
+}
+
+/* style specifico */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-colum-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
